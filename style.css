@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #181818;
+    color: #fff;
+    user-select: none;
+}
+
+
+
+
+
+#main_screen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    flex-direction: column;
+}
+
+
+#screen{
+    width: 256px;
+    height: 256px;
+    background-color: #000; 
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+#screen > div{
+    transform-origin: center center;
+    position: absolute;
+}
+
+
+#fixed{
+    width: 256px;
+    height: 256px;
+    background-image: url("fixed.png");
+}
+
+#fixed_needle{
+    width: 256px;
+    height: 256px;
+    background-image: url("angle_needle.png");
+}
+
+
+
+
+#subBack{
+    width: 256px;
+    height: 256px;
+    background-image: url("subBack.png");
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+
+}
+
+
+
+#screen_back{
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+    overflow: hidden;
+}
+
+#back{ 
+    width: 512px;
+    height: 2048px;
+    background-image: url("backgroud.png");
+    margin: auto;
+    position: absolute;
+    left: -160px;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
