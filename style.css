@@ -45,13 +45,13 @@ body{
 #fixed{
     width: 256px;
     height: 256px;
-    background-image: url("fixed.png");
+    background-image: url("assets/fixed.png");
 }
 
 #fixed_needle{
     width: 256px;
     height: 256px;
-    background-image: url("angle_needle.png");
+    background-image: url("assets/angle_needle.png");
 }
 
 
@@ -60,7 +60,7 @@ body{
 #subBack{
     width: 256px;
     height: 256px;
-    background-image: url("subBack.png");
+    background-image: url("assets/subBack.png");
     margin: auto;
     left: 0;
     right: 0;
@@ -88,7 +88,7 @@ body{
 #back{ 
     width: 512px;
     height: 2048px;
-    background-image: url("backgroud.png");
+    background-image: url("assets/backgroud.png");
     margin: auto;
     position: absolute;
     left: -160px;
